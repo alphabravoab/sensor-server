@@ -1,22 +1,13 @@
-# Tic Tac Toe Server
+# The most basic server ever
 
-This is a server for playing a multiplayer Tic Tac Toe game. 
+this server is a basic server for an IoT experiment. It will have no security so run it on a save secure wifi. Anyone can get and post data to this server so be carefull.
 
-It has these endpoints:
+##Data 
 
-* `POST /users`: sign up as new user
-* `POST /logins`: log in and receive a JWT
-* `POST /games`: create a new game
-* `POST /games/:id/players`: join an existing game
-* `PATCH /games/:id`: update an existing game
-* `GET /games`: list all games
-* `GET /users`: list all users
+TypeORM handles all the SQl. The setup does require something for now I'm running a docker with postgress use the command 
 
-## Running
+> docker run -p 5432:5432 --name some-postgres -e POSTGRES_PASSWORD=secret -d postgres  
 
-* You need a working Postgres database that is preferrably empty (drop all the tables) and running 
-* Install the dependencies using `yarn install`
-* Compile the app (Typescript > Javascript) using `yarn compile` (during development you can use `yarn watch`)
-* `yarn start`
+if you ever decide to use this yourself run the password in proces.envolope and please change it from the password secret. It is in the top 10 list of most used for a reason. 
 
-You can run the tests with `yarn test`. Currently they only cover the game logic. 
+Other then this use this for anything you want. It is ment to get data from an arduino and give it out to a web app.
