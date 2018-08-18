@@ -1,0 +1,1 @@
+{"version":3,"file":"sensor.js","sourceRoot":"","sources":["../../src/entities/sensor.ts"],"names":[],"mappings":";;;;;;;;;;;AAAA,qCAA8F;AAC9F,qDAA2C;AAG3C,IAAqB,MAAM,GAA3B,YAA4B,SAAQ,oBAAU;CAY7C,CAAA;AAVG;IADC,gCAAsB,EAAE;;kCACd;AAIX;IAFC,0BAAQ,EAAE;IACV,gBAAM,CAAC,KAAK,CAAC;;qCACD;AAGb;IADC,0BAAgB,EAAE;;yCACD;AATD,MAAM;IAD1B,gBAAM,EAAE;GACY,MAAM,CAY1B;kBAZoB,MAAM"}
